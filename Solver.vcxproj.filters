@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ODE_Solve_Algorithm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AE_Solve_Algorithm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterSourceHeatPump.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AirSourceHeatPump.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterHub.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AirCooledChiller.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterCooledChiller.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GroundHeatExchanger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GroundSourceHeatPump.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StorageTank.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Coal&amp;BiomassHotWaterBoiler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GasHotWaterBoiler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ElecHotWaterBoiler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Coal&amp;Biomass_CFB_HotWaterBoiler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ElecSteamBoiler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Pre_Load.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SteamHub.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Coal&amp;BiomassSteamBoiler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Coal&amp;Biomass_CFB_SteamBoiler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GasSteamBoiler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LiBr_Steam_Machine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="System_Sim.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LiBr_DirectCombust_Machine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="System_per_step.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FlueGasHub.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LiBr_FlueGas_Machine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CoolingTowerOpen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CoolingTowerClosed.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WasteHeatHotWaterBoiler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WasteHeatSteamBoiler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LiBr_WasteHotWater_Machine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SolarWaterHeater.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LiBr_Solar_Machine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ODE_Solve_Algorithm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AE_Solve_Algorithm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sub_Models.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Pre_Load.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Steam_T(P).dat" />
+    <None Include="Steam_h(P,x).dat" />
+    <None Include="Steam_s(P,x).dat" />
+    <None Include="Steam_T(h,s).dat" />
+  </ItemGroup>
+</Project>
